@@ -1,0 +1,10 @@
+@media all and (max-width: 1470px) {
+    #wrapper {
+        width: 1195px;
+        height: 650px;
+    }
+
+    #ai2html {
+        margin-top: 150px;
+    }
+}
