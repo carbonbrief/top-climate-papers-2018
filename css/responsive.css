@@ -1,10 +1,24 @@
 @media all and (max-width: 1470px) {
     #wrapper {
-        width: 1195px;
-        height: 650px;
+        width: 1287px;
+        height: 700px;
     }
 
     #ai2html {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width: 1102px) {
+    #wrapper {
+        width: 1102px;
+        height: 600px;
+    }
+
+    #ai2html {
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
