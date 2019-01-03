@@ -1,0 +1,47 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #292e32;
+}
+
+#wrapper {
+    background-color: #292e32;
+    width: 1470px;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ai2html {
+    width: inherit;
+    height: inherit;
+    display: block;
+    margin: 0;
+}
+
+#title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+h1 {
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: "PT Serif", Georgia, serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 0.2em;
+    margin-left: 20px;
+}
+
