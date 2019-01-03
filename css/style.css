@@ -26,8 +26,19 @@ body {
     margin: 10px;
 }
 
+#credit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#credit p {
+    margin: 7px;
+}
+
 h1 {
-    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-family: "PT Sans Narrow", arial, sans-serif;
     font-size: 29px;
     color: #ffffff;
     font-weight: 700;
@@ -43,5 +54,20 @@ h2 {
     font-weight: 300;
     margin-top: 0.2em;
     margin-left: 20px;
+}
+
+p {
+    font-family: "PT Sans",arial, sans-serif;
+    font-size: 14px;
+    color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
