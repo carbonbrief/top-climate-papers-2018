@@ -18,6 +18,25 @@
     }
 }
 
+@media all and (max-width: 1287px) {
+    #wrapper {
+        width: 1140px;
+        height: 620px;
+    }
+
+    #ai2html {
+        margin-top: 80px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
 @media all and (max-width: 570px) {
     #wrapper {
         width: 100%;
@@ -49,6 +68,14 @@
 
     #title-wrapper {
         margin: 7px;
+    }
+
+    #credit p {
+        margin: 5px;
+    }
+
+    p {
+        font-size: 12px;
     }
 
 }

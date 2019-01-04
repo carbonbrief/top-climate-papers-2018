@@ -12,11 +12,17 @@ function changeIframeSrc (screenWidth) {
     
         console.log('Retina');
     
-    } else if ((screenWidth > 570) && (screenWidth < 1471)) {
+    } else if ((screenWidth > 1286) && (screenWidth < 1471)) {
     
         iframe.attr('src',url + "desktop.html");   
     
         console.log('Desktop');
+
+    } else if ((screenWidth > 570) && (screenWidth < 1287)) {
+    
+        iframe.attr('src',url + "laptop.html");   
+    
+        console.log('laptop');
     
     } else {
         // do nothing for now
