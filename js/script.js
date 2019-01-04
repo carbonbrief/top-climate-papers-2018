@@ -18,7 +18,7 @@ function changeIframeSrc (screenWidth) {
     
         console.log('Desktop');
 
-    } else if ((screenWidth > 1102) && (screenWidth < 1288)) {
+    } else if ((screenWidth > 1103) && (screenWidth < 1288)) {
     
         iframe.attr('src',url + "laptop.html");   
     
