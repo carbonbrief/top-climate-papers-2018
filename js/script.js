@@ -12,20 +12,19 @@ function changeIframeSrc (screenWidth) {
     
         console.log('Retina');
     
-    } else if ((screenWidth > 1287) && (screenWidth < 1471)) {
+    } else if ((screenWidth > 570) && (screenWidth < 1471)) {
     
         iframe.attr('src',url + "desktop.html");   
     
         console.log('Desktop');
-
-    } else if ((screenWidth > 1103) && (screenWidth < 1288)) {
-    
-        // iframe.attr('src',url + "laptop.html");   
-    
-        // console.log('Laptop');
     
     } else {
         // do nothing for now
+
+        iframe.attr('src',url + "tablet.html");   
+
+        console.log('Tablet');
+
     }
 
 }
