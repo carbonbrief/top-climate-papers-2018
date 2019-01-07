@@ -70,8 +70,13 @@
         margin: 7px;
     }
 
-    #credit p {
-        margin: 5px;
+    .info-span {
+        padding: 5px;
+    }
+
+    #info p {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     p {

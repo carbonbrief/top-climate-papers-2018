@@ -31,15 +31,24 @@ body {
     margin: 10px;
 }
 
-#credit {
+#info {
     position: fixed;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#credit p {
-    margin: 7px;
+.info-span {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+}
+
+#info p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+i {
+    color: #ffffff;
 }
 
 h1 {
